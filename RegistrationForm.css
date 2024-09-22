@@ -1,0 +1,42 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    /* overflow: hidden; */
+    align-content: center;
+}
+body{
+    color: aliceblue;
+    background-image: url("b2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    overflow-y: scroll;
+}
+fieldset{
+    border-radius:  2%;
+    width: 450px;
+    padding: 30px;
+    margin: auto;
+    backdrop-filter: blur(10px);
+}
+#header{
+    color: solid rgb(219, 236, 242);
+    text-transform: capitalize;
+    font-size: 30px;
+    text-align: center;
+    margin-top:10px ;
+}
+#submit{
+    margin: 20px auto;
+    margin-bottom: 30px;
+    display: block;
+    padding:5px 15px;
+    font-size: 16px;
+    border-radius: 7%;
+}
+#submit:hover{
+    background-color: green;
+}
+

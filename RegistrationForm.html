@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>RegistrationForm</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="RegistrationForm.css">
+  </head>
+  <body>
+    <header id="header">REGISTER FORM</header><br>
+    <fieldset>
+    <label for="firstN">First Name: </label><br>
+    <input name="firstN" id="firstN" type="text" placeholder="First Name.."  />
+    <br><br>
+    <label for="Name">Name: </label><br>
+    <input name="name" id="name" type="text" placeholder="Name.." required />
+    <br><br>
+    <label for="LastN">Last Name: </label><br>
+    <input name="lastN" id="lastN" type="text" placeholder="Last Name.."  />
+    <br><br>
+    <label for="gender">Gender: </label><br>
+    <input name="gender" id="gender" type="radio" value="Female"  />Female<br>
+    <input name="gender" id="gender" type="radio" value="Male"  />Male<br>
+    <input name="gender" id="gender" type="radio" value="Others"  />Others<br>
+    <br>
+    <label for="dob">DOB: </label><br>
+    <input name="dob" id="dob" type="date"  required  />
+    <br><br>
+    <label for="FatherN">Father Name: </label><br>
+    <input name="FatherN" id="FatherN" type="text" placeholder="Father Name.."  />
+    <br><br>
+    <label for="religion">Religion: </label><br>
+    <input name="religion" id="religion" type="text" placeholder="First Name"  />
+    <br><br>
+    <label for="MotherT">Mother tougue: </label><br>
+    <select name="MotherT" id="MotherT">
+      <option value="" >Select your language</option>
+      <option value="Telugu">Telugu</option>
+      <option value="Hindi">Hindi</option>
+      <option value="English">English</option>
+    </select>
+    <br><br>
+    <label for="email">Email: </label><br>
+    <input name="email" id="email" type="email" placeholder="email.." required />
+    <br><br>
+    <label for="sub">Choose what subject you know: </label><br>
+    <input type="checkbox" id="java" name="sub"   />
+    <label for="sub">Java</label><br>
+    <input type="checkbox" id="python" name="sub"   />
+    <label for="sub">Python</label><br>
+    <input type="checkbox" id="dbms" name="sub"   />
+    <label for="sub">DBMS</label><br>
+    </fieldset>
+    <input id="submit" type="submit" value="submit"  />
+  </body>
+</html>
